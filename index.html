@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="computing school and computer courses school in western kenya"
+    />
+    <title>HALCHIQ CAR RENTALS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar" id="navbar">
+      <div class="navSection">
+        <div class="navlogo">HALCHIQ LIMITED</div>
+        <div class="navText">
+          <h1>CAR RENTAL - +254 721 394672</h1>
+        </div>
+      </div>
+    </div>
+    <div class="section1">
+      <div class="section">
+        <div class="sectiontext">
+          <h1>The Most Reliable Way to Rent,Lease or Hire a Car in kenya</h1>
+          <div class="driverbutton">
+            <button type="submit">Drive Yourself</button>
+            <button type="submit">Chauffeur</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="booksection">
+      <div class="booksection1">
+        <div class="rentcar">
+          <h1>Make your trip</h1>
+          <select id="carName" required>
+            <option value="">Select the brand of the car</option>
+            <option value="Axio">Axio</option>
+            <option value="Harrier">Harrier</option>
+            <option value="V8">V8</option>
+            <option value="Vitz">Vitz</option>
+            <option value="Prado">Prado</option>
+            <option value="Rav4">Rav4</option>
+            <option value="Xtrail">Xtrail</option>
+            <option value="Noah">Noah</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Premio">Premio</option>
+            <option value="22-33 Seater buses">22-33 Seater buses</option>
+            <option value="8 - 16 seater vans">8-16 Seater Vans</option>
+            <option value="Safari Landcruiser">Safari Landcruiser</option>
+          </select>
+          <label>Pick-up location</label>
+          <input
+            type="text"
+            id="pickupLocation"
+            placeholder="City, Airport, Station, etc"
+            required
+          />
+          <label>Drop-off location</label>
+          <input
+            type="text"
+            id="dropLocation"
+            placeholder="City, Airport, Station, etc"
+            required
+          />
+          <div class="dateSection">
+            <div>
+              <label>Pick Up Date</label>
+              <input type="date" value="" id="pickDate" required />
+            </div>
+            <div>
+              <label>Drop Off Date</label>
+              <input type="date" value="" id="dropDate" required />
+            </div>
+          </div>
+          <div class="timeSection">
+            <div>
+              <label>Pick Up Time</label>
+              <input type="time" value="" id="pickupTime" required />
+            </div>
+            <div>
+              <label>Drop Off Time</label>
+              <input type="time" value="" id="dropTime" required />
+            </div>
+          </div>
+          <button class="rent-btn">Rent A Car Now</button>
+        </div>
+        <div class="reservecar">
+          <h1>Better Way to Rent Your Perfect Cars</h1>
+          <div class="reserveitems">
+            <div class="icon1">
+              <img src="images/10.jpg" alt="" />
+              <p>Choose Your Pickup Location</p>
+            </div>
+            <div class="icon1">
+              <img src="images/06.jpg" alt="" />
+              <p>Select the Best Deal</p>
+            </div>
+            <div class="icon1">
+              <img src="images/14.jpg" alt="" />
+              <p>Reserve Your Rental Car</p>
+            </div>
+          </div>
+          <button type="button">Reserve Your Perfect Car</button>
+        </div>
+      </div>
+    </div>
+    <div class="vehicle">
+      <div class="vehicle1">
+        <h1>OUR FLEET</h1>
+        <div class="vehicle2">
+          <h1>Feautured Vehicles</h1>
+          <div class="vehicleSection">
+            <div class="vehicle3">
+              <img src="images/01.jpg" alt="" />
+              <h2>Prado</h2>
+              <h3>Amount <label>Ksh 12,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Prado">Book Now</button>
+                <button type="submit" class="b2" data-car="Prado">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+            <div class="vehicle3">
+              <img src="images/02.jpg" alt="" />
+              <h2>Toyota Harrier</h2>
+              <h3>Amount <label>Ksh 8,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Harrier">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Harrier">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+            <div class="vehicle3">
+                <img src="images/03.jpg" alt="" />
+              <h2>Toyota Harrier</h2>
+              <h3>Amount <label>Ksh 8,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Harrier">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Harrier">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/04.jpg" alt="" />
+              <h2>Nissan Xtrail</h2>
+              <h3>Amount <label>Ksh 6,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Nissan Xtrail">Book Now</button>
+                <button type="submit" class="b2" data-car="Nissan Xtrail">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/05.jpg" alt="" />
+              <h2>Step Wagon</h2>
+              <h3>Amount <label>Ksh 7,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Step Wagon">Book Now</button>
+                <button type="submit" class="b2" data-car="Step Wagon">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/06.jpg" alt="" />
+              <h2>Step Wagon</h2>
+              <h3>Amount <label>Ksh 7,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Step Wagon">Book Now</button>
+                <button type="submit" class="b2" data-car="Step Wagon">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/07.jpg" alt="" />
+              <h2>Step Wagon</h2>
+              <h3>Amount <label>Ksh 7,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Step Wagon">Book Now</button>
+                <button type="submit" class="b2" data-car="Step Wagon">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/08.jpg" alt="" />
+              <h2>Vitz</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Vitz">Book Now</button>
+                <button type="submit" class="b2" data-car="Vitz">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/09.jpg" alt="" />
+             <h2>Vitz</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Vitz">Book Now</button>
+                <button type="submit" class="b2" data-car="Vitz">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/10.jpg" alt="" />
+              <h2>Toyota Harrier</h2>
+              <h3>Amount <label>Ksh 8,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Harrier">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Harrier">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/11.jpg" alt="" />
+             <h2>Vitz</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Vitz">Book Now</button>
+                <button type="submit" class="b2" data-car="Vitz">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/12.jpg" alt="" />
+              <h2>Toyota Harrier</h2>
+              <h3>Amount <label>Ksh 8,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Harrier">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Harrier">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/13.jpg" alt="" />
+             <h2>Prado</h2>
+              <h3>Amount <label>Ksh 12,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Prado">Book Now</button>
+                <button type="submit" class="b2" data-car="Prado">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+            <div class="vehicle3">
+              <img src="images/14.jpg" alt="" />
+              <h2>Axio</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Axio">Book Now</button>
+                <button type="submit" class="b2" data-car="Axio">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+            <div class="vehicle3">
+              <img src="images/15.jpg" alt="" />
+            <h2>Axio</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Axio">Book Now</button>
+                <button type="submit" class="b2" data-car="Axio">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+            <div class="vehicle3">
+              <img src="images/16.jpg" alt="" />
+             <h2>Axio</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Axio">Book Now</button>
+                <button type="submit" class="b2" data-car="Axio">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/17.jpg" alt="" />
+             <h2>Nissan Xtrail</h2>
+              <h3>Amount <label>Ksh 6,000</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Nissan Xtrail">Book Now</button>
+                <button type="submit" class="b2" data-car="Nissan Xtrail">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/18.jpg" alt="" />
+              <h2>Honda Fit</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Honda Fit">Book Now</button>
+                <button type="submit" class="b2" data-car="Honda Fit">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/19.jpg" alt="" />
+              <h2>Toyota Vitz</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Vitz">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Vitz">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/20.jpg" alt="" />
+              <h2>Toyota Vitz</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Vitz">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Vitz">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+             <div class="vehicle3">
+              <img src="images/21.jpg" alt="" />
+              <h2>Toyota Vitz</h2>
+              <h3>Amount <label>Ksh 3,500</label></h3>
+              <div class="vbutton">
+                <button type="submit" data-car="Toyota Vitz">Book Now</button>
+                <button type="submit" class="b2" data-car="Toyota Vitz">
+                  Inquiry
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="aboutSection">
+      <div class="about1">
+        <div class="about2">
+          <img src="images/09.jpg" alt="" />
+          <div class="about3">
+            <h1>ABOUT US</h1>
+            <h2>Welcome to Halchiq Car Rental Limited</h2>
+            <p>
+              At Halchiq Car Rentals, we are committed to redefining
+              transportation convenience across Kenya by offering reliable,
+              affordable, and premium car hire services. Whether you need a
+              vehicle for self-drive, business travel, airport transfers,
+              special events, or long-term leasing, we provide a wide range of
+              well-maintained options—from compact cars to SUVs, vans, and
+              executive vehicles. Our goal is to ensure every client enjoys a
+              smooth, secure, and comfortable travel experience backed by
+              excellent customer service and transparent pricing. With years of
+              experience in the transport industry, we continue to prioritize
+              safety, professionalism, and quality in every service we deliver.
+              Our team works around the clock to meet your travel needs
+              promptly, offering flexible booking, customizable rental plans,
+              and trusted drivers where needed. At Halchiq, we believe your
+              journey matters, and we are dedicated to providing the ideal
+              vehicle and support to make every trip unforgettable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="servicesSec">
+      <div class="servicesSec1">
+        <h1>Services</h1>
+        <h2>Our Latest Services</h2>
+        <div class="servicesSec3">
+          <div class="servicesSec4">
+            <img src="images/04.jpg" alt="" />
+            <h3>Wedding Ceremony</h3>
+            <p>
+              Make your special day elegant and memorable with our premium
+              wedding car rental service. We provide clean, stylish, and
+              comfortable vehicles for bridal convoys, photography, and guest
+              transportation. Our professional drivers ensure timely arrivals
+              and smooth coordination for a stress-free celebration.
+            </p>
+          </div>
+          <div class="servicesSec4">
+            <img src="images/09.jpg" alt="" />
+            <h3>City Transfer</h3>
+            <p>
+              Move around the city with ease using our convenient and reliable
+              city transfer service. Whether you're attending meetings, running
+              errands, or exploring the town, our fleet offers comfortable rides
+              and trusted drivers committed to timely service.
+            </p>
+          </div>
+          <div class="servicesSec4">
+            <img src="images/10.jpg" alt="" />
+            <h3>Airport Transfer</h3>
+            <p>
+              Enjoy seamless airport pickups and drop-offs with our punctual
+              airport transfer service. We track flight schedules, assist with
+              luggage, and ensure you reach the airport or your destination
+              without delays. Whether solo or in a group, expect a smooth,
+              comfortable journey.
+            </p>
+          </div>
+          <div class="servicesSec4">
+            <img src="images/16.jpg" alt="" />
+            <h3>Whole City Tour</h3>
+            <p>
+              Discover the beauty of the city with our guided tour car rental.
+              We take you to top attractions, landmarks, and hidden gems while
+              you enjoy a relaxed, comfortable ride. Perfect for families,
+              tourists, and groups exploring new places.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="two">
+        <div class="logof">
+          <img src="images/22.jpg" alt="" />
+          <div class="navicons">
+            <a href="https://wa.me/+254721" target="_blank" class="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://facebook.com/YourPageName"
+              target="_blank"
+              class="facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://x.com/YourUsername"
+              target="_blank"
+              class="twitter"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a
+              href="https://instagram.com/YourUsername"
+              target="_blank"
+              class="instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
