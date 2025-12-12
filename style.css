@@ -582,7 +582,7 @@ footer .two .logof.navicons i:hover {
         rgba(173, 216, 230, 0.384),
         rgba(173, 216, 230, 0.4) 50%
       ),
-      url("images/4.jpg");
+      url('4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1103,7 +1103,7 @@ footer .two .logof.navicons i:hover {
         rgba(173, 216, 230, 0.384),
         rgba(173, 216, 230, 0.4) 50%
       ),
-      url("images/4.jpg");
+      url('4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1575,5 +1575,6 @@ footer .two .logof.navicons i:hover {
     border-radius: 50%;
   }
 }
+
 
 
