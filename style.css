@@ -1350,7 +1350,8 @@ footer .two .logof.navicons i:hover {
   .vehicle .vehicle1 .vehicle2 h1 {
     padding: 10px 0px;
     color: rgb(1, 88, 1);
-    font-size: 1.8em;
+    font-size: 1.5em;
+    text-align: center;
     font-weight: 900;
     align-items: center;
     justify-content: center;
@@ -1575,6 +1576,7 @@ footer .two .logof.navicons i:hover {
     border-radius: 50%;
   }
 }
+
 
 
 
